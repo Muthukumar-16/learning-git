@@ -1,0 +1,22 @@
+GLOBAL SETUP:
+
+git config --global user.name "Muthukumar-16"
+git config --global user.email "muthuabja2020@gmail.com"
+
+NEXT STEPS:
+
+mkdir git-real
+cd git-real
+git init
+touch README
+git add README
+git commit -m "first commit"
+git remote origin https://github.com/Muthukumar-16/learning-git
+git push -u origin master
+
+EXISTING GIT REPOS:
+
+cd existing_git_repo
+git remote add origin https://github.com/Muthukumar-16/learning-git
+git push -u origin master
+
